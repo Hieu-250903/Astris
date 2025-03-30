@@ -1,0 +1,86 @@
+.f-wrapper {
+  background-color: #4F98CD;
+  padding: 2rem 0;
+  color: white;
+}
+
+.f-container {
+  justify-content: space-between;
+  gap: 2rem;
+}
+.f-left {
+  gap: 1rem;
+}
+
+.f-social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateX(5px);
+}
+
+.social-icon {
+  font-size: 1.5rem;
+}
+
+.facebook {
+  color: #1877f2;
+}
+
+.instagram {
+  color: #e4405f;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.f-center, .f-right {
+  gap: 1rem;
+}
+
+.f-center h3, .f-right h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-info p, .f-right p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .f-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .f-left, .f-center, .f-right {
+    align-items: center;
+  }
+
+  .social-link {
+    justify-content: center;
+  }
+}
